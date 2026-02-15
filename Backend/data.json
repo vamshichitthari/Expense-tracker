@@ -11,6 +11,12 @@
       "email": "raju@gmail.com",
       "password": "$2a$10$H5kFQQDsxgr6UIhaWqkXDuGQdT2hDZVWGJ77eNYyOSQ7SEVgtf7ym",
       "createdAt": "2026-02-15T10:19:45.022Z"
+    },
+    {
+      "id": "id_1771152837091_81y1lqjzx",
+      "email": "tharuncse36@gmail.com",
+      "password": "$2a$10$h5R2iLa/Il8gf2sr9UsLk.b5c1JHUfRWx6xqjJvefiDZ8t7Q3KN7S",
+      "createdAt": "2026-02-15T10:53:57.092Z"
     }
   ],
   "transactions": [
@@ -23,6 +29,16 @@
       "date": "2026-02-15",
       "notes": "",
       "createdAt": "2026-02-15T10:19:15.731Z"
+    },
+    {
+      "id": "txn_1771152863523_7i6nqo4ln",
+      "userId": "id_1771152837091_81y1lqjzx",
+      "title": "mobile rent",
+      "amount": 390,
+      "category": "Utilities",
+      "date": "2026-02-15",
+      "notes": "",
+      "createdAt": "2026-02-15T10:54:23.523Z"
     }
   ]
 }
