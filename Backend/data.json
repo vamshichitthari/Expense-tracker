@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "id_1771150281168_tq7ic6b48",
+      "email": "vamshi@gmail.com",
+      "password": "$2a$10$WPL8kPan1TG6FTORbdw03uX6e1NOL7yDZp7iMYxWpytDevsK3jVqy",
+      "createdAt": "2026-02-15T10:11:21.168Z"
+    },
+    {
+      "id": "id_1771150785022_18lq60ze6",
+      "email": "raju@gmail.com",
+      "password": "$2a$10$H5kFQQDsxgr6UIhaWqkXDuGQdT2hDZVWGJ77eNYyOSQ7SEVgtf7ym",
+      "createdAt": "2026-02-15T10:19:45.022Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_1771150755731_ul06kmed7",
+      "userId": "id_1771150281168_tq7ic6b48",
+      "title": "fish",
+      "amount": 150,
+      "category": "Food",
+      "date": "2026-02-15",
+      "notes": "",
+      "createdAt": "2026-02-15T10:19:15.731Z"
+    }
+  ]
+}

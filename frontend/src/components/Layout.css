@@ -1,0 +1,84 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.layout-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.layout-brand:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.layout-nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.layout-nav a {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.layout-nav a:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+  text-decoration: none;
+}
+
+.layout-nav a.active {
+  color: var(--accent);
+  background: rgba(0, 212, 170, 0.12);
+}
+
+.layout-user {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.layout-email {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.btn-logout {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}
+
+.btn-logout:hover {
+  color: var(--danger);
+  border-color: var(--danger);
+}
+
+.layout-main {
+  flex: 1;
+  padding: 1.5rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
